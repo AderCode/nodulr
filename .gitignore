@@ -154,3 +154,9 @@ $RECYCLE.BIN/
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
 .icloud
 */**/lib
+client/dist
+server/lib
+**/*/ENV_VAR
+ENV_VAR
+**/env/development.js
+development.js
