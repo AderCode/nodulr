@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
+import Example from '../components/example';
 
 export default class Home extends Component {
     constructor(props) {
@@ -7,6 +8,6 @@ export default class Home extends Component {
     }
     
     render() {
-        return <h1>Home Screen!</h1>;
+        return <Example></Example>;
     }
 }
